@@ -4,12 +4,15 @@ This is Solidity-based smart contracts in this project. The contracts enable use
 
 ## Table of Contents
 
-- [Overview](#overview)
-- [Getting Started](#getting-started)
-- [Contract Details](#contract-details)
-- [Functions](#functions)
+- [Collateral and Insurance Protocol Contract](#collateral-and-insurance-protocol-contract)
+  - [Table of Contents](#table-of-contents)
+  - [Overview-Description](#overview-description)
+  - [Deploying and Verifying the Contracts on Sepolia testnet](#deploying-and-verifying-the-contracts-on-sepolia-testnet)
+  - [Verified Contract Addresses](#verified-contract-addresses)
+  - [Authors](#authors)
+  - [License](#license)
 
-## Overview / Description
+## Overview-Description
 
 The project includes a `factory contract model`, which allows users to create either `insurance contracts` or `collateral protection contracts`.
 The factory contract can deploy instances of either a child contract based on user preference.
@@ -46,4 +49,4 @@ Marcellus Ifeanyi
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the LICENSE.md file for details.
