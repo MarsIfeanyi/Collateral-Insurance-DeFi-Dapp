@@ -5,7 +5,7 @@ import "./InsuranceProtocol.sol";
 import "./CollateralProtocol.sol";
 import "./interface/IERC20.sol";
 
-contract InsurancePoolFactory {
+contract InsuranceProtocolFactory {
     mapping(address => InsuranceProtocol) public insurancePools;
     mapping(address => ColateralProtocol) public colateralPools;
     address loanToken;
