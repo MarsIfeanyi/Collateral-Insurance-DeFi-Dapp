@@ -1,21 +1,43 @@
-# INSURANCE AND COLATERAL PROTECTION CONTRACT
+# Collateral and Insurance Protocol Contract
 
-This Solidity program is a simple implementation of an "Insurance contract" and a "Colateral protection contract", it implements the factory contract model to allow individuals create either an insurance contracts or a collateral protection contract for crypto backed loans.
+This is Solidity-based smart contracts in this project. The contracts enable users to purchase insurance and collateral for crypto-backed loans.
 
-## Description
+## Table of Contents
 
-This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain. The contract is a factory contract that deploys new instances of a child contract depending on the users choice. The factory is able to deploy an insurance contract or a Collateral contract. The insurance contract allows a user to pay his premium monthly or annually depending on the users choice while the Collateral management contract implements a logic that helps check if the value of a user's collateral has dropped below 20, of which if it does then the users collateral is liquidated, the user cal also repay back his loan to receive back his collateral.
+- [Overview](#overview)
+- [Getting Started](#getting-started)
+- [Contract Details](#contract-details)
+- [Functions](#functions)
 
-## Contract Addresses
+## Overview / Description
+
+The project includes a `factory contract model`, which allows users to create either `insurance contracts` or `collateral protection contracts`.
+The factory contract can deploy instances of either a child contract based on user preference.
+
+The insurance contract allows users to pay their premiums either `monthly` or `annually`.
+The `collateral management contract`, on the other hand, monitors the value of the user's collateral.
+If the collateral value drops below 20, the contract liquidates the collateral. Users can also repay their loans to retrieve their collateral.
+
+## Deploying and Verifying the Contracts on Sepolia testnet
+
+- ![01](./images/01.png)
+
+- ![02](./images/02.png)
+
+- ![03](./images/03.png)
+
+- ![04](./images/04.png)
+
+## Verified Contract Addresses
 
 - Insurance Contract:
-  0x88300BeCF48153Ee71F148b7aE744424De52D84D
+  https://sepolia.etherscan.io/address/0x6d5100a503560ac86b54f32541220591d44e239e
 
 - Collateral Contract:
-  0x871B08f40015CeC00c35adf7703b7C3fd68e1b70
+  https://sepolia.etherscan.io/address/0x91522f4357f261d81d6a905455df7e5ca850e349
 
 - Factory Contract:
-  0x127de15B163C5662892520473f1EF45f3FF51274;
+  https://sepolia.etherscan.io/address/0x738cc49d9398aea8130625677c29d74851261890
 
 ## Authors
 
